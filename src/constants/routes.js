@@ -1,0 +1,15 @@
+export default {
+  login: '/login',
+  home: '/',
+  dataExport: '/exports',
+  generalStatistic: '/general-statistic',
+  getContestant: '/general-statistic/contestant/',
+  recentlyStatistic: '/recently-statistic',
+  resultTable: '/result-table',
+  viewEssay: '/result-table/view-essay/',
+  accoutInfo: '/account',
+  contestDetail: '/contest',
+  resultDetail: '/result-detail',
+  getAccount: '/account-detail',
+  getContest: '/account-detail/contest/',
+};

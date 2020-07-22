@@ -1,0 +1,202 @@
+.essay-container {
+  padding: 25px;
+
+  h3 {
+    text-align: center;
+  }
+
+  .container-fluid {
+    padding: 0px;
+    background-color: #FFFFFF;
+
+    .body {
+      .row {
+        .search-container {
+          padding: 26px;
+        }
+      }
+    }
+
+    .title-essay-total {
+      font-size: 16px;
+      font-weight: bold;
+      text-align: left;
+      margin: 0px;
+
+      b {
+        color: #ff1c26;
+        font-size: 22px;
+      }
+    }
+
+    .ant-btn {
+      float: right;
+      color: #BE1E2D;
+      border-color: #BE1E2D;
+      height: 35px;
+      width: 120px;
+    }
+
+    .ant-table-container {
+      border: none;
+
+    }
+
+    .ant-table table {
+      text-align: left;
+      border-spacing: 3px 3px;
+    }
+
+    .ant-table-wrapper {
+      margin: 9px;
+    }
+
+    .ant-select-selector {
+      text-align: left;
+    }
+
+    .ant-table-content {
+      font-size: 14px;
+    }
+
+    .ant-table-cell {
+      border: 0.6px solid #C4C4C4 !important;
+      text-align: center;
+    }
+
+    .ant-pagination-item {
+      border-radius: 15px;
+      background: #C4C4C4;
+      color: #676767;
+    }
+
+    .ant-pagination-prev .ant-pagination-item-link, .ant-pagination-next .ant-pagination-item-link {
+      border: 0;
+      line-height: 30px;
+      min-width: 0;
+      font-size: 14px;
+    }
+
+    .ant-pagination-item-active {
+      background-color: #BE1E2D !important;
+      color: #FFFFFF;
+    }
+
+    .ant-table tfoot {
+      tr {
+        td {
+          background: #ECECEC;
+        }
+      }
+    }
+    .ant-table-tbody {
+      tr > td {
+        border: 0.5px solid #C4C4C4;
+        font-family: Google Sans Regular;
+        font-size: 14px;
+        text-align: left;
+      }
+    }
+
+    .ant-table-thead {
+      tr {
+        th {
+          background: #DBE6F7;
+          text-align: center;
+          color: #4A4A4A;
+          font-size: 16px !important;
+          line-height: 15px;
+          font-family: Google Sans;
+        }
+      }
+    }
+    .table-number{
+      font-size: 14px;
+      text-align: right;
+    }
+
+    .ant-pagination-options {
+      margin-right: -7px;
+    }
+
+    .mt-20 {
+      margin-top: 20px;
+    }
+
+    .mf-15 {
+      margin-left: 10px;
+    }
+
+    .bd:active {
+      border: none;
+    }
+
+    .export-excel {
+      height: 70px;
+      margin-right: 9px;
+      .excel {
+        float: right;
+        color: white;
+        font-size: 18px;
+        background-color: #BE1E2D;
+        padding-top: 5px;
+        height: 40px;
+        width: 145px;
+        border-color: #BE1E2D;
+        border-radius: 3px;
+        .anticon.anticon-download {
+          margin: auto;
+            svg{
+              margin-bottom: 11px;
+              font-size: 20px;
+            }
+        }
+      }
+    }
+  }
+}
+
+.modal-style {
+  width: 100% !important;
+  top: 20px !important;
+}
+
+.view-detail {
+  background-color: white;
+}
+
+.fl-l-detail {
+  float: left;
+}
+
+.modal-style {
+  .answer-detail {
+    float: left;
+    margin-left: 70px;
+    color: green;
+  }
+
+  .essay-detail {
+    float: left;
+    margin-left: 25px;
+  }
+
+  .icon-detail {
+    width: 100%;
+    margin-right: 0px;
+    font-size: 30px;
+    padding-right: 20px;
+    padding-top: 10px;
+  }
+
+  .ant-btn {
+    display: none;
+  }
+}
+
+div {
+  font-family: Google Sans !important;
+  font-size: 12px;
+}
+
+

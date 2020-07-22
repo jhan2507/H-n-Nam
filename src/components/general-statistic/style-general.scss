@@ -1,0 +1,138 @@
+.general-container {
+  padding: 25px;
+  .container-fluid {
+
+    .select-month-container {
+      margin-top: 2%;
+
+      .col#total {
+        text-align: center;
+
+        h3 {
+          b {
+            color: #ff0f20
+          }
+          i{
+            font-size: 15px;
+            color: mediumblue;
+          }
+        }
+      }
+
+      .month {
+        float: right;
+        width: 39.14%;
+        font-weight: bold;
+
+        .ant-select-selection-item {
+          font-size: 18px !important;
+        }
+      }
+    }
+
+    .row#row-chart {
+      margin-top: 1.5%;
+
+      .col#pie {
+        margin: 15px;
+        padding: 0;
+        background: #fff;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+
+        .highcharts-title {
+          font-size: 16px !important;
+          color: #4A4A4A;
+          font-family: Google Sans;
+        }
+
+
+        .highcharts-label {
+          font-family: Google Sans;
+          font-size: 18px !important;
+        }
+
+      }
+    }
+
+
+    .col#row-table {
+      margin-top: 1.5%;
+      background: #FFFFFF;
+      padding: 30px 25px 30px 25px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+
+
+      .ant-table table {
+        border-spacing: 3px 3px;
+      }
+
+      .highcharts-credits {
+        display: none !important;
+      }
+
+      .ant-table-tbody {
+        tr {
+          td {
+            border: 0.5px solid #C4C4C4;
+            font-family: Google Sans Regular;
+            font-size: 14px !important;
+            text-align: right;
+          }
+        }
+      }
+
+      .ant-table-cell {
+        .nameOrg {
+          text-align: left !important;
+          font-size: 14px;
+        }
+      }
+
+      .ant-table-thead > tr > th {
+        background: #DBE6F7;
+        color: #4A4A4A;
+        font-weight: 500;
+        font-size: 16px !important;
+        line-height: 15px;
+        font-family: Google Sans;
+        text-align: center;
+      }
+
+      .ant-table.ant-table-bordered tbody > tr > td {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 15px;
+        color: #4A4A4A;
+        border: 0.5px solid #C4C4C4;
+      }
+
+      .ant-pagination-item {
+        border-radius: 15px;
+        background: #DADADA;
+        border-color: transparent;
+      }
+
+      .ant-pagination-prev .ant-pagination-item-link, .ant-pagination-next .ant-pagination-item-link {
+        border: 0;
+        line-height: 30px;
+        min-width: 0;
+        font-size: 16px;
+      }
+
+      .ant-pagination-prev, .ant-pagination-next {
+        border-radius: 15px;
+      }
+
+      .ant-pagination-item-active {
+        background-color: #BE1E2D;
+        color: #FFFFFF;
+      }
+    }
+
+  }
+}
+
+
+
+

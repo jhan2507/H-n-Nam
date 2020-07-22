@@ -1,0 +1,142 @@
+//Layout
+.site-layout .site-layout-background {
+  background: #fff;
+}
+
+.unsite-layout .site-layout-background{
+  background: #fff;
+}
+
+.site-layout{
+  max-width: 1684px;
+  margin-left: 236px;
+  top:0px;
+}
+
+.unsite-layout{
+  max-width: 100%;
+  margin-left: 0px;
+  top:0px;
+}
+
+//Sider
+.sider{
+  position: fixed;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  max-width: 236px !important;
+  width: 236px !important;
+  min-width: 236px !important;
+  flex: 0 0 236px;
+
+  background-color: #46485E;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.unsider{
+  position: fixed;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  max-width: 0px !important;
+  width: 0px !important;
+  min-width: 0px !important;
+  flex: 0 0 0px;
+
+  background-color: #46485E;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+//Header
+.head-style{
+  max-width: 100%;
+  width: 100%;
+  z-index: 100;
+  .trigger {
+    position: absolute;
+    font-size: 18px;
+    line-height: 40px;
+    padding: 0 24px;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+
+  .trigger:hover {
+    color: #BE1E2D;
+  }
+  //Popover
+  .popover-menu{
+    padding-right: 260px;
+    padding-top: 0px;
+    height: 40px;
+    vertical-align: auto;
+  }
+
+  .unpopover-menu{
+    padding-right: 24px;
+    padding-top: 0px;
+    height: 40px;
+    vertical-align: auto;
+  }
+
+  .spacer {
+    flex: 1;
+  }
+}
+
+//Content
+.contentlogin{
+  margin-left: -236px;
+}
+
+.uncontentlogin{
+  margin-left: 0px;
+}
+
+.notification{
+  font-size: 15px;
+  display: none;
+}
+
+.notification-link{
+  font-size: 12px;
+  color: #BE1E2D !important;
+  display: none;
+}
+
+@media screen and (max-width: 768px) and (max-height: 826px) {
+  .layoutall{
+    display: none;
+  }
+  .notification{
+    display: block;
+  }
+  .notification-link{
+    display: block;
+  }
+}
+
+@media screen and (max-width: 826px) and (max-height: 450px) {
+  .layoutall{
+    display: none;
+  }
+  .notification{
+    display: block;
+  }
+  .notification-link{
+    display: block;
+  }
+}
+
+@media screen and (max-width: 847px){
+  .layoutall{
+    display: none;
+  }
+  .notification{
+    display: block;
+  }
+  .notification-link{
+    display: block;
+  }
+}
