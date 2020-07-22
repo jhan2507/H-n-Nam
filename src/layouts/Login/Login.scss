@@ -1,0 +1,37 @@
+.login{
+  background-color: #262265;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  resize: vertical;
+  overflow: auto;
+  .asset1{
+    z-index: 0;
+    position: fixed;
+    left:0px;
+    bottom:0px;
+  }
+
+  .asset2{
+    position: fixed;
+    top:0px;
+    right:0px;
+    z-index: 0;
+  }
+}
+
+@media only screen and (max-width: 823px) {
+  .asset1{
+    display:none;
+  }
+  .asset2{
+    display: none;
+  }
+}
+

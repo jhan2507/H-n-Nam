@@ -1,0 +1,184 @@
+.result-container {
+  font-family: Google Sans;
+
+  .title-page {
+    font-size: 28px;
+    text-align: center;
+    color: rgb(84, 77, 118);
+  }
+
+  .row {
+    margin: 0;
+
+    .container-fluid {
+      margin: 1.539%;
+      background: #FFFFFF;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      padding: 0;
+
+      .info-form {
+        margin: 0px 25px;
+        display: flex;
+        align-items: center;
+        border-bottom: 1px solid #C4C4C4;
+
+        .anticon.anticon-arrow-left {
+          color: black;
+        }
+
+        .info-text {
+          font-size: 16px;
+          padding: 25px 25px;
+          width: 100%;
+
+          .info {
+            font-size: 20px;
+            margin-bottom: 10px;
+            width: 100%;
+
+            .info-name {
+              width: 50%;
+              float: left;
+            }
+
+            .info-code {
+              width: 50%;
+              float: right;
+            }
+          }
+        }
+
+
+      }
+
+      .select-component {
+        margin-bottom: 20px;
+        padding: 0 25px;
+        display: flex;
+
+        .select-contest-container {
+          margin-top: 1.325%;
+          margin-bottom: 1.325%;
+          margin-left: 0px;
+          font-size: 18px;
+          line-height: 15px;
+          font-weight: 500;
+          display: flex;
+
+
+          .ant-select-selector {
+            margin-top: -9px;
+          }
+
+
+          .ant-select-selector {
+            margin: auto;
+          }
+
+          .title {
+            margin: auto;
+          }
+
+          .ant-select-selection-search {
+            position: static;
+          }
+
+          .ant-select-selection-search-input {
+            position: absolute;
+          }
+
+          .ant-select-selection-item {
+            font-size: 18px;
+          }
+
+          .total-account {
+            font-size: 22px;
+            color: red;
+            padding-left: 5px;
+          }
+        }
+      }
+
+
+      .col#antd-table {
+        padding: 15px 25px;
+
+        .ant-table table {
+          border-spacing: 2px 2px;
+          border: none;
+          margin-right: -3px;
+          text-align: center;
+        }
+
+        .ant-table-tbody {
+          tr > td {
+            border: 0.5px solid #C4C4C4;
+            font-family: Google Sans Regular;
+            font-size: 14px;
+          }
+        }
+
+
+        .ant-table-thead {
+          tr {
+            th {
+              background: #DBE6F7;
+              text-align: center;
+              color: #4A4A4A;
+              font-size: 16px !important;
+              line-height: 15px;
+              font-family: Google Sans;
+            }
+          }
+
+        }
+
+        .td-table-text {
+          text-align: left;
+          font-size: 14px;
+          .td-table-item{
+            font-size: 12px;
+          }
+        }
+        .td-table-number{
+          font-size: 14px;
+          text-align: right;
+        }
+
+        .ant-pagination-options {
+          margin-right: -5px;
+        }
+
+        .ant-pagination-prev .ant-pagination-item-link, .ant-pagination-next .ant-pagination-item-link {
+          border: 0;
+          line-height: 30px;
+          min-width: 0;
+          font-size: 16px;
+        }
+
+        .ant-pagination-item-active {
+          background-color: #BE1E2D !important;
+          color: #FFFFFF;
+        }
+
+        .ant-pagination-item {
+          border-radius: 15px;
+          background: #DADADA;
+          border-color: transparent;
+        }
+
+        .ant-pagination-prev, .ant-pagination-next {
+          border-radius: 15px;
+        }
+
+        .ant-table tfoot > tr > td {
+          background: #ECECEC;
+        }
+
+        .ant-select-selection-item {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}
